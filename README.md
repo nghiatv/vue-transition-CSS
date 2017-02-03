@@ -1,3 +1,11 @@
+# [Tổng quan](README.md)
+
+* [Transition Classes](chapter1.md)
+* [CSS Transition](css-transition.md)
+* [CSS Animation](css-animation.md)
+
+
+
 # Transtion trong Vue js
 
 Vue cung cấp cho chúng ta nhiều cách để thêm hiệu ứng transition cho các DOM khi chúng ta tiến hành thêm, sửa hay xóa chúng. Cụ thể sẽ bao gồm:
@@ -47,7 +55,7 @@ new Vue({
 }
 ```
 
-Để hiểu rõ hơn thì chúng ta cần xem xem điều gì xảy ra bên trong `transition` component khi mà ta thêm hay xóa đi 1 elements trong nó: 
+Để hiểu rõ hơn thì chúng ta cần xem xem điều gì xảy ra bên trong `transition` component khi mà ta thêm hay xóa đi 1 elements trong nó:
 
 1. Vue sẽ tự động thêm vào các hiệu ứng CSS thông qua các class
 2. Nếu transiton component mà có chứa các Javascript hooks, thì các hooks này sẽ được gọi vào thời điểm phù hợp.
